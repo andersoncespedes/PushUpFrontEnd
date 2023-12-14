@@ -1,0 +1,118 @@
+
+:root{
+    --bg-green-color:#7dfa81;
+    --active-green-color:#00e408;
+    --bg-rose-color:#ff72ec;
+    --active-rose-color:#ff55e8;
+    --bg-brown-color:#f8e550;
+    --active-brown-color:#e6cb00;
+
+
+}
+@font-face {
+    font-family: poppins;
+    src: url("./Fonts/Poppins-Black.ttf");
+}
+@font-face {
+    font-family: poppins-d;
+    src: url("./Fonts/Poppins-regular.ttf");
+}
+@font-face {
+    font-family: poppins-it;
+    src: url("./Fonts//Poppins-Bold.ttf");
+}
+
+.navbar-nav ul {
+   color: green;
+}
+.show-case{
+    height: 500px;
+    border-radius: 50px;
+}
+.font-f{
+    font-family: poppins;
+}
+.font-d{
+    font-family: poppins-d;
+}
+.font-bold{
+    font-family: poppins-it;
+}
+.txt-green{
+    color: var(--bg-green-color);
+}
+.txt-green-active{
+    color: var(--active-green-color);
+}
+.txt-brown{
+    color: var(--bg-brown-color);
+}
+.txt-brown-active{
+    color: var(--active-brown-color);
+}
+.txt-rose{
+    color: var(--bg-rose-color);
+}
+.txt-rose-active{
+    color: var(--active-rose-color);
+}
+.bg-green{
+    background-color: var(--bg-green-color)
+}
+.bg-brown{
+    background-color: var(--bg-brown-color)
+}
+.bg-rose{
+    background-color: var(--bg-rose-color)
+}
+.bg-green-active{
+    background-color: var(--bg-green-active)
+}
+#media-section{
+    
+
+    position: fixed;
+    min-width: 65px;
+    right: 0px;
+    top: 30%;
+    z-index: 50;
+}
+
+.social-media{
+    padding: 20px 0px;
+    box-shadow: 0 0 15px black;
+}
+.bg-grad{
+    box-shadow: -3px 0 0 gray;
+}
+.bg-grad-green{
+    background: linear-gradient(to bottom right, var(--bg-green-color) 400px, white 10px);
+    border-top-left-radius: 20px;
+}
+.bg-grad-brown{
+    background: linear-gradient(to bottom right, var(--bg-brown-color) 400px, white 10px);
+    border-top-left-radius: 20px;
+}
+.bg-grad-rose{
+    background: linear-gradient(to bottom right, var(--bg-rose-color) 400px, white 10px);
+    border-top-left-radius: 20px;
+}
+#products img{
+    width: 70px;
+}
+.bg, .bg img{
+    cursor: pointer;
+    transition: 300ms all ease;
+}
+.bg:hover img{
+    padding-left: 30px;
+}
+#products div{
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+    transition: 300ms all ease;
+}
+#products div:hover{
+    padding: 0px;
+}
